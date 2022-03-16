@@ -1,15 +1,15 @@
 #include "main.h"
+#include <math.h>
 
 /**
- * argument - returns the modulus
- * @c: the complex
- * Return: the modulus of complex
- */
+* argument - return the argument
+* @c: structure complex
+* Return: double a
+*/
 
 double argument(complex c)
 {
-	double argus;
-
-	argus = atan(c.im / c.re);
-	return (argus);
+double a;
+a = atan(c.im / c.re);
+return (a);
 }

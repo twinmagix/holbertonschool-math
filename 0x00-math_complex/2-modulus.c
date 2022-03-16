@@ -1,13 +1,16 @@
-#include <math.h>
 #include "main.h"
+#include <math.h>
+
 /**
- * modulus - returns the modulus
- * @c: the complex
- * Return: the modulus of complex
- */
+* modulus - return the modulus
+* @c: structure complex
+* Return: c
+*/
+
 double modulus(complex c)
 {
-	double module = sqrt(pow(c.re, 2) + pow(c.im, 2));
+	double mod;
 
-	return (module);
+	mod = sqrt(pow(c.re, 2) + pow(c.im, 2));
+	return (mod);
 }

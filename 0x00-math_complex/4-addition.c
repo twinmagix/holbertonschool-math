@@ -1,12 +1,13 @@
 #include "main.h"
+#include <math.h>
 
 /**
- * addition - returns the modulus
- * @c1: the complex 1
- * @c2: the complex 2
- * @c3: the complex 3
- * Return: the modulus of complex
- */
+* addition - return the addition
+* @c1: complex
+* @c2: complex
+* @c3: complex pointer
+* Return: void
+*/
 
 void addition(complex c1, complex c2, complex *c3)
 {
