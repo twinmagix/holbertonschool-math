@@ -1,4 +1,4 @@
-#include "main.h"
+#include "heron.h"
 /**
  * heron - funtion that return the Heron sequence until having convergence
  * with an error less or equal to 10^(-7)
